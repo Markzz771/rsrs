@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSRSR</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <!-- Container principal do jogo -->
+    <div class="game-container">
+        <h1>Passa tempo</h1>
+
+        <!-- Imagem da pergunta -->
+        <div id="question-container">
+            <img id="question-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhet5g-Jx94ptkjciA6j0prKtHX0hgBLfqWWsprYhKJdb5aoGx0BXftYpMLMh8G4DsTuh0ESb2kc16r5WOB6YFOP7CcQf1DYLLxrqkQeJ66EcJVipdubNgofer7X2spx2FNevhZWmcFM3U/w1200-h630-p-k-no-nu/Slide1.JPG" alt="Imagem da pergunta" style="width: 100%; max-width: 300px; margin: 10px auto;">
+            <p id="question">Qual é a capital do Brasil?</p>
+        </div>
+
+        <!-- Respostas -->
+        <div id="answers">
+            <button class="answer-btn">Brasília</button>
+            <button class="answer-btn">Rio de Janeiro</button>
+            <button class="answer-btn">São Paulo</button>
+            <button class="answer-btn">Salvador</button>
+        </div>
+
+        <!-- Feedback de resposta -->
+        <p id="feedback"></p>
+
+        <!-- Botões para navegação -->
+        <button id="next-btn" class="next-btn" onclick="nextQuestion()">Próxima Pergunta</button>
+        <button id="reset-btn" class="reset-btn" onclick="resetGame()">Reiniciar Jogo</button>
+
+        <!-- Pontuação -->
+        <p id="score">Pontuação: 0</p>
+    </div>
+
+    <!-- Link para o arquivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>

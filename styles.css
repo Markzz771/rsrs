@@ -1,0 +1,78 @@
+/* Estilos para o body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhet5g-Jx94ptkjciA6j0prKtHX0hgBLfqWWsprYhKJdb5aoGx0BXftYpMLMh8G4DsTuh0ESb2kc16r5WOB6YFOP7CcQf1DYLLxrqkQeJ66EcJVipdubNgofer7X2spx2FNevhZWmcFM3U/w1200-h630-p-k-no-nu/Slide1.JPG'); /* Substitua com a URL da sua imagem */
+    background-size: cover; /* Faz com que a imagem ocupe toda a tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh; /* Altura 100% da tela */
+}
+
+/* Estilos para o container principal do jogo */
+.game-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    color: #333; /* Cor do texto */
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover nos botões */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Feedback de resposta */
+#feedback {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Botão "Próxima Pergunta" */
+.next-btn {
+    background-color: #2196F3;
+}
+
+/* Botão de reiniciar */
+.reset-btn {
+    background-color: #FF6347;
+    margin-top: 20px;
+}
+
+.reset-btn:hover {
+    background-color: #FF4500;
+}
+
+/* Pontuação */
+#score {
+    font-size: 18px;
+    margin-top: 20px;
+}
